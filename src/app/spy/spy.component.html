@@ -1,0 +1,8 @@
+<div>
+  <ul *ngFor="let item of users">
+    <li>{{ item }}</li>
+  </ul>
+  <h1 [innerText]="users[0]"></h1>
+  <input [type]="type">
+  <button (click)="ngOnInit()">Show</button>
+</div>

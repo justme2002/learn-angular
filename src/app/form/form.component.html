@@ -1,0 +1,8 @@
+<div>
+  <h1>Form</h1>
+  <form>
+    <input type="text" name="name" [value]="name" [(ngModel)]="name">
+    {{ name }}
+  </form>
+  <button (click)="clearName()">clear name</button>
+</div>
